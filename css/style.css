@@ -150,6 +150,10 @@ a {
 
 .welcome-section {
   background-color: var(--bg);
+  background-image: url("../img/bg.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-attachment: fixed;
   color: var(--white);
   height: 100vh;
   display: -webkit-box;
@@ -338,15 +342,15 @@ footer ul li a {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
+  display: flex;
 }
 
-footer ul li i {
-  font-size: 3rem;
+footer ul li svg {
   margin-right: 1rem;
 }
 
 footer ul li:hover {
-  -webkit-transform: translateY(1rem);
-          transform: translateY(1rem);
+  -webkit-transform: translateY(-0.5rem);
+          transform: translateY(-0.5rem);
 }
 /*# sourceMappingURL=style.css.map */
